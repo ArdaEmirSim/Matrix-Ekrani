@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color:#0F0;
+    margin: 0px;
+    columns: 6;
+    overflow:hidden
+}
+@media (max-width:768px) {
+    body{
+        columns: 4;
+    }    
+}
+form{
+    width: 100%;
+    background-color: rgba(256, 256, 256, 0.15);
+    border-right: solid 2px gray;
+    padding-left : 2%;    
+    padding-right: 2%;
+    padding-top: 2%;
+    columns: 1;
+    padding-bottom: 20000%;
+}
+#inputHiz{
+    width: 100%;
+
+}
+@media(max-width:768px){
+    #inputHiz{
+          writing-mode: vertical-rl;
+          transform: rotate(180deg);
+
+    }
+}
